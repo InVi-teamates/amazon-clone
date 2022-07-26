@@ -1,0 +1,35 @@
+.footer {
+    background-color: #232F3E;
+    color: white;
+}
+.link-footer {
+    background-color: #131A22;
+}
+
+
+.box-link {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    font-size: 90%;
+}
+
+.box-link a{
+    text-decoration: none;
+    color: rgb(227, 231, 240);
+}
+.box-link a:hover{
+    text-decoration: underline;
+}
+
+.box-desc {
+    color: rgb(164, 163, 163);
+    font-size: smaller;
+}
+
+.footer-end {
+    padding: 10px 0 30px;
+    text-align: center;
+    font-size: small;
+    color: rgb(202, 202, 202);
+}
