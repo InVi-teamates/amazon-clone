@@ -1,1 +1,37 @@
+/* .carouselImg {
+    width: 100%;
+} */
+body{
+    background-color: #ededed !important;
+}
+#carouselExampleControls {
+    height: 350px;
+    z-index: -1;
+    
+    
+}
+
+
+
+.card-container {
+    z-index: 1;
+}
+
+
+.row-container {
+    /* overflow-x: auto; */
+    background-color: white;
+}
+
+.row-img {
+    /* height: 200px; */
+    width: 180px;
+    /* margin: 20px;
+    padding: 10px; */
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+  }
+  
 
