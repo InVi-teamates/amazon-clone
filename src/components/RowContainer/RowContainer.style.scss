@@ -1,3 +1,33 @@
 .row-container {
-    
+    display: flex;
+    flex-flow: row wrap;
+    gap: 22px;
+}
+.row-item {
+    width: 100%;
+    background-color: white;
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 24px!important;
+    overflow: hidden;
+
+}
+.row-scrollbar {
+    overflow: overlay;
+    overscroll-behavior-y: none;
+}
+.row-scrollbar::-webkit-scrollbar {
+    height: 6px;
+}
+.row-scrollbar::-webkit-scrollbar-thumb {
+    background: #979797;
+    display: none;
+    border-radius: 6px;
+    transition: 10s;
+    transition-delay: 1;
+}
+.row-scrollbar:hover::-webkit-scrollbar-thumb {
+    opacity: 1;
+    display: block;
+    height: 6px;
 }
