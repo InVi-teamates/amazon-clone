@@ -3,8 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import Footer from './components/footer/Footer';
 import Carousel from './components/Carousel';
-import CardContainer from './components/CardContainer';
-import RowContainer from './components/RowContainer';
+import CardContainer from './components/CardContainer/CardContainer';
+import RowContainer from './components/RowContainer/RowContainer';
 
 function App() {
 

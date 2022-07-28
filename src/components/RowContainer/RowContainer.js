@@ -1,5 +1,6 @@
 import React from 'react';
 import RowImg from './RowImg';
+import './RowContainer.style.scss';
 
 
 export default function RowContainer(props) {
@@ -10,8 +11,7 @@ export default function RowContainer(props) {
 
             <div className='d-flex overflow-auto'>
                 {props.imgUrls.map((ele) => <RowImg src={ele} alt="" />)}
-        </div>
-        </div>
-        
+            </div>
+        </div> 
     )
 }

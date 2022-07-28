@@ -1,0 +1,6 @@
+.card-container {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, 18rem);
+    // grid-column-gap: min;
+    flex-flow: row wrap;
+}
