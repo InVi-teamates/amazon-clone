@@ -5,6 +5,8 @@ import Footer from './components/footer/Footer';
 import Carousel from './components/Carousel';
 import CardContainer from './components/CardContainer';
 import RowContainer from './components/RowContainer';
+import NavBar from './components/NavBar';
+import SearchBar from './components/SearchBar';
 
 function App() {
 
@@ -23,6 +25,8 @@ function App() {
 
   return (
     <div>
+      <SearchBar/>
+      <NavBar/>
       <Carousel />
       <CardContainer />
       <RowContainer heading="Top Sellers in Books for you" imgUrls={booksImgUrls} />
