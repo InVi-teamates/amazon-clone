@@ -1,9 +1,37 @@
 .footer {
     background-color: #232F3E;
     color: white;
+    line-height: 120%;
+}
+.btt-container {
+    height: 50px;
+    background-color: #37475A;
+    margin-bottom: 40px;
+}
+.about-footer {
+    background-color: #232F3E;
+}
+.about-footer-line {
+    border-top: 1px solid #3a4553;
+    margin-top: 40px;
+    display: block;
+}
+.footer-paditem {
+    margin-bottom: 30px;
 }
 .link-footer {
     background-color: #131A22;
+}
+
+
+#bt-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 0;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center !important;
 }
 
 
