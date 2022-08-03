@@ -1,0 +1,49 @@
+/* About table link */
+.about-f-container {
+	margin: 0 auto;
+	max-width: 1000px;
+	display: table;
+}
+
+.about-table-row {
+	display: table-row;
+}
+
+.about-table-cell {
+	display: table-cell;
+	padding: 0 10px;
+}
+
+.about-footer-table-space {
+	display: table-cell;
+	padding: 0 10px;
+	width: 10%;
+}
+
+.about-footer-title {
+	font-weight: bold;
+	color: #fff;
+	font-size: 16px;
+	margin: 6px 0 14px 0;
+	white-space: nowrap;
+}
+
+.about-footer-ul {
+	padding-left: 0;
+}
+
+.about-footer-li {
+	list-style-type: none;
+	margin: 0 0 7px;
+}
+
+.about-footer-links {
+	text-decoration: none;
+	color: #DDD;
+	cursor: pointer;
+	font-size: 14px;
+}
+.about-footer-links:hover {
+	text-decoration: underline;
+	color: #DDD;
+}
