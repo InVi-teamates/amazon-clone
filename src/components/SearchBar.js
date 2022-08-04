@@ -10,12 +10,12 @@ export default function SearchBar() {
         <div className='search-bar'>
             <ul className='search-bar-list'>
                 <li className='search-bar--item'>
-                    <a href='#' className='searchbar-logo ' >
+                    <a href='/' className='searchbar-logo ' >
                         <img src={logo} alt='logo' />
                     </a>
                 </li>
                 <li className='search-bar--item'>
-                    <a href='#' className='location' style={{height: '100%',display: 'flex', flexDirection: 'row', alignItems: 'center', color: '#fff', padding: '0 8px'}}>
+                    <a href="/" className='location' style={{height: '100%',display: 'flex', flexDirection: 'row', alignItems: 'center', color: '#fff', padding: '0 8px'}}>
                         <i className = 'ti-location-pin' style={{fontSize: '20px', paddingRight: '4px', paddingTop: '4px'}}>
                         </i>
                         <p style = {{display: 'flex', flexDirection: 'column', padding: '6px 4px 2px', margin: '0'}}>
@@ -60,7 +60,7 @@ export default function SearchBar() {
 
                 </li>
                 <li className='search-bar--item' >
-                    <a className = "change-language" href='#' style={{
+                    <a className = "change-language" href="/" style={{
                                                                     display: 'flex',
                                                                     flexDirection: 'row',
                                                                     padding: '16px 10px 8px'
@@ -84,7 +84,7 @@ export default function SearchBar() {
                     </a>
                 </li>
                 <li className='search-bar--item'>
-                    <a className='sign-in' href='#' style={{display:'flex', flexDirection: 'column', padding: ' 10px'}}>
+                    <a className='sign-in' href="/" style={{display:'flex', flexDirection: 'column', padding: ' 10px'}}>
                         <span style={{fontSize:'12px'}}>
                             Hello, Sign in
                         </span>
@@ -104,7 +104,7 @@ export default function SearchBar() {
                     </a>
                 </li>
                 <li className='search-bar--item'>
-                    <a className = "returns-orders" href='#' style={{display: 'flex', flexDirection: 'column', padding: '10px 10px'}}>
+                    <a className = "returns-orders" href="/" style={{display: 'flex', flexDirection: 'column', padding: '10px 10px'}}>
                         <span style={{fontSize: '12px'}}>
                             Returns
                         </span>
@@ -114,7 +114,7 @@ export default function SearchBar() {
                     </a>
                 </li>
                 <li className='search-bar--item'>
-                    <a className = "cart" href = "#" style={{display: 'flex', flexDirection: 'row', padding: '2px 10px '}}>
+                    <a className = "cart" href="/" style={{display: 'flex', flexDirection: 'row', padding: '2px 10px '}}>
                         <div style={{display: 'flex', flexDirection: 'column'}}>
                             <span style={{color: 'coral', fontWeight: 'bold', textAlign:'center', position:'absolute', width: '30px'}}>
                                     {'0'}

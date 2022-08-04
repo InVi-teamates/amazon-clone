@@ -6,7 +6,7 @@ export default function NavBar() {
         <div className='nav-bar-container'>
         <ul className='nav-bar'>
             <li className='nav-bar-item' >
-                <a href='#' style = {{display: 'flex'}}>
+                <a href="/" style = {{display: 'flex'}}>
                     <div>
                         <i className='ti-menu' style = {{paddingRight: '6px'}}></i>
                     </div>
@@ -14,19 +14,19 @@ export default function NavBar() {
                 </a>
             </li>
             <li className='nav-bar-item'>
-                <a href='#'>Today's Deals</a>
+                <a href="/">Today's Deals</a>
             </li>
             <li className='nav-bar-item'>
-                <a href='#'>Customer Service</a>
+                <a href="/">Customer Service</a>
             </li>
             <li className='nav-bar-item'>
-                <a href='#'>Registry</a>
+                <a href="/">Registry</a>
             </li>
             <li className='nav-bar-item'>
-                <a href='#'>Gift Cards</a>
+                <a href="/">Gift Cards</a>
             </li>
             <li className='nav-bar-item'>
-                <a href='#'>Sell</a>
+                <a href="/">Sell</a>
             </li>
         </ul>
         </div>
